@@ -15,7 +15,7 @@ public class TopDownCharacterMover : MonoBehaviour
     private float rotateSpeed;
 
     [SerializeField]
-    private Camera camera;
+    private Camera camer;
 
     private void Awake()
     {
@@ -36,13 +36,13 @@ public class TopDownCharacterMover : MonoBehaviour
     private void MoveTowardTarget(Vector3 targetVector)
     {
         var speed = moveSpeed * Time.deltaTime;
-        targetVector = Quaternion.Euler(0, camera.gameObject.transform.eulerAngles.y, 0) * targetVector;
+        targetVector = Quaternion.Euler(0, camer.gameObject.transform.eulerAngles.y, 0) * targetVector;
         transform.Translate(targetVector * speed);
     }
 
     private void RotateTowardMouseVector()
     {
-        Ray ray = camera.ScreenPointToRay(_input.MousePosition);
+        Ray ray = camer.ScreenPointToRay(_input.MousePosition);
 
         if(Physics.Raycast(ray, out RaycastHit hitInfo, maxDistance: 300f))
         {
