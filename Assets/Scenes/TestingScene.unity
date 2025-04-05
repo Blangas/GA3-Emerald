@@ -339,7 +339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4845623230771956, guid: d47d5ac7dfc19da419169847c76d638b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 4845623230771956, guid: d47d5ac7dfc19da419169847c76d638b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -388,7 +388,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1596485419112710, guid: d47d5ac7dfc19da419169847c76d638b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 953162093}
   m_SourcePrefab: {fileID: 100100000, guid: d47d5ac7dfc19da419169847c76d638b, type: 3}
 --- !u!4 &411935495 stripped
 Transform:
@@ -578,6 +581,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4845623230771956, guid: d47d5ac7dfc19da419169847c76d638b, type: 3}
   m_PrefabInstance: {fileID: 406713249}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &953162093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136938500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbea66e7136382f419836a0ae9cb554a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 0}
+  footstep: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,7 +717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 136938500}
   mouseSensitivity: 10
-  dstFromTarget: 1.4
+  dstFromTarget: 3
   hgtFromTarget: 1.2
   lookFromTarget: 0.6
   pitchMinMax: {x: 20, y: 85}
@@ -954,10 +971,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4bc45ec0f4000544988c1053a648e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 2
-  runSpeed: 8
+  walkSpeed: 8
+  runSpeed: 2
   gravity: -12
-  jumpHeight: 1
+  jumpHeight: 1.5
   airControlPercent: 1
   turnSmoothTime: 0.2
   speedSmoothTime: 0.1
@@ -965,7 +982,7 @@ MonoBehaviour:
   isMoving: 0
   isMovingLateral: 0
   bUseCameraControlRotation: 0
-  playerAnimator: {fileID: 0}
+  playerAnimator: {fileID: 953162093}
 --- !u!143 &1544640637
 CharacterController:
   m_ObjectHideFlags: 0
