@@ -18,14 +18,12 @@ public class TopDownCharacterMover : MonoBehaviour
     private Camera camer;
 
     private void Awake()
-    {
-        _input = GetComponent<InputHandler>();
+    {   _input = GetComponent<InputHandler>();
     }
 
     // Update is called once per frame
     void Update()
-    {
-        // converts Vector2 to Vector3
+    {   // converts Vector2 to Vector3
         var targetVector = new Vector3(_input.InputVector.x, 0, _input.InputVector.y);
 
         MoveTowardTarget(targetVector);
