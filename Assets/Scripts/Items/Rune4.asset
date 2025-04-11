@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f42a3269d1abf344e8b6724683187d68, type: 3}
-  m_Name: Rune1
+  m_Name: Rune4
   m_EditorClassIdentifier: 
-  itemName: Rune Svir
-  icon: {fileID: 21300000, guid: 5eecfe2488d12d148a9673e97c91b7fe, type: 3}
-  description: Rune representing chaos.
+  itemName: Rune Saul
+  icon: {fileID: 21300000, guid: b6286576bffa3874d95c3888c1a453d2, type: 3}
+  description: Rune representing energy.
