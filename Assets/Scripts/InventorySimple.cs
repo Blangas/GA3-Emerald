@@ -13,6 +13,6 @@ public class InventorySimple : MonoBehaviour
     public bool axe = false;
     public bool tinderBox = false;
     public bool shovel = false;
-    public bool bucket = false;
+    public bool rope = false;
     public bool crowbar = false;
 }
