@@ -9,15 +9,24 @@ public class Teleporter : MonoBehaviour
 
     public Transform targetTeleportLocation;
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        Debug.Log(other.name + " entered the teleporter trigger");
+        if (other.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerController>().enabled = false; // Disable player controls
+            // Teleport the player to the target location
+            other.transform.position = targetTeleportLocation.position;
+            other.transform.rotation = targetTeleportLocation.rotation;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit(Collider other)
     {
-        
+        Debug.Log(other.name + " exited the teleporter trigger");
+        if (other.CompareTag("Player"))
+        {
+            other.GetComponent<PlayerController>().enabled = true; // Enable player controls
+        }
     }
 }
