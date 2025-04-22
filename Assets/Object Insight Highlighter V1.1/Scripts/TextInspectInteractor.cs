@@ -51,6 +51,7 @@ namespace TextInspectSystem
                     // Mine addition to check if the item is pickable and deactivate it
                     if (textItem.isPickable)
                     {
+                        textItem.displayIcon.SetActive(true); // Hide the icon
                         textItem.gameObject.SetActive(false);
                         // Implement pickable item logic here
                         Debug.Log("Picked up: " + textItem.name);
