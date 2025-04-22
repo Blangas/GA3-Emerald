@@ -13,12 +13,18 @@ namespace TextInspectSystem
         [Header("Input Key")]
         [SerializeField] private KeyCode interactKey;
 
+        //I'll use this script for interaction, as it already have raycasting and crosshair highlighting
+        [Header("Inventory addition")]
+        public InventorySimple inventory; // Reference to the inventory script
+
         void Start()
         {
             if (!TryGetComponent<Camera>(out _camera))
             {
                 Debug.LogError("Camera component not found on the GameObject.");
             }
+
+            inventory = GetComponentInParent<InventorySimple>();
         }
 
         private void Update()
@@ -51,9 +57,10 @@ namespace TextInspectSystem
                     // Mine addition to check if the item is pickable and deactivate it
                     if (textItem.isPickable)
                     {
-                        textItem.displayIcon.SetActive(true); // Hide the icon
+                        textItem.displayIcon.SetActive(true); // Show the icon
+                        inventory.AddItem(textItem.gameObject.name); // Add the item to the inventory
                         textItem.gameObject.SetActive(false);
-                        // Implement pickable item logic here
+
                         Debug.Log("Picked up: " + textItem.name);
                     }
                 }
