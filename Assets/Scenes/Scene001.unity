@@ -10240,6 +10240,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 447652, guid: b057fba516b76724ca20ffa1149cfbfc, type: 3}
   m_PrefabInstance: {fileID: 302080242}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &304197038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+  m_PrefabInstance: {fileID: 1354201287}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &307261781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19329,7 +19334,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 854445976}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1 &624229898
 GameObject:
@@ -21704,6 +21712,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700552754}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &701577340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+  m_PrefabInstance: {fileID: 2118177616}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &702599271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26713,6 +26726,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 477796, guid: 9bda40f4cc3980c42830cb01d8347291, type: 3}
   m_PrefabInstance: {fileID: 848237061}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &848520526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+  m_PrefabInstance: {fileID: 1633642205}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &849184322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26826,6 +26844,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 410834, guid: 619697e25e552f0469a1f23a015f01e1, type: 3}
   m_PrefabInstance: {fileID: 547815978}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &854445971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+  m_PrefabInstance: {fileID: 620930238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &854445976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854445971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0e807d8fd0c14f83265065942fd92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showObjectName: 1
+  showObjectDetails: 1
+  playDetailsAudio: 0
+  isPickable: 0
+  displayIcon: {fileID: 0}
+  objectName: Statue hand
+  objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
+    could fit in them.
+  detailsAudioClip: {fileID: 0}
 --- !u!1001 &854767155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31396,6 +31440,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4866011163987012, guid: e2601cfae5922224da511097d24528bf, type: 3}
   m_PrefabInstance: {fileID: 1354201287}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1001712811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304197038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0e807d8fd0c14f83265065942fd92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showObjectName: 1
+  showObjectDetails: 1
+  playDetailsAudio: 0
+  isPickable: 0
+  displayIcon: {fileID: 0}
+  objectName: Statue hand
+  objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
+    could fit in them.
+  detailsAudioClip: {fileID: 0}
 --- !u!1001 &1002368575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33206,6 +33271,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4866011163987012, guid: e2601cfae5922224da511097d24528bf, type: 3}
   m_PrefabInstance: {fileID: 1633642205}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1059383335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848520526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0e807d8fd0c14f83265065942fd92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showObjectName: 1
+  showObjectDetails: 1
+  playDetailsAudio: 0
+  isPickable: 0
+  displayIcon: {fileID: 0}
+  objectName: Statue hand
+  objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
+    could fit in them.
+  detailsAudioClip: {fileID: 0}
 --- !u!1001 &1061482983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37305,6 +37391,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 465198, guid: f2e183d3a4ac7cc44ad43fb988762f28, type: 3}
   m_PrefabInstance: {fileID: 1164753890}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1164853776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+  m_PrefabInstance: {fileID: 1389503189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1164853781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164853776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0e807d8fd0c14f83265065942fd92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showObjectName: 1
+  showObjectDetails: 1
+  playDetailsAudio: 0
+  isPickable: 0
+  displayIcon: {fileID: 0}
+  objectName: Statue hand
+  objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
+    could fit in them.
+  detailsAudioClip: {fileID: 0}
 --- !u!1001 &1165036170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43512,7 +43624,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1001712811}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1001 &1356200754
 PrefabInstance:
@@ -44820,7 +44935,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1164853781}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1001 &1389683942
 PrefabInstance:
@@ -49310,6 +49428,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4866011163987012, guid: e2601cfae5922224da511097d24528bf, type: 3}
   m_PrefabInstance: {fileID: 2118177616}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1527107691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701577340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0e807d8fd0c14f83265065942fd92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showObjectName: 1
+  showObjectDetails: 1
+  playDetailsAudio: 0
+  isPickable: 0
+  displayIcon: {fileID: 0}
+  objectName: Statue hand
+  objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
+    could fit in them.
+  detailsAudioClip: {fileID: 0}
 --- !u!4 &1527304021 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 408112, guid: c6cb56b5c70f4f14ebf96689fda29f2c, type: 3}
@@ -52403,7 +52542,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1059383335}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1 &1639004503
 GameObject:
@@ -67966,7 +68108,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1527107691}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1001 &2119577743
 PrefabInstance:
