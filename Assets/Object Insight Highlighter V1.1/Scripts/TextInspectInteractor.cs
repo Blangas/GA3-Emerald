@@ -47,6 +47,14 @@ namespace TextInspectSystem
                 if (Input.GetKeyDown(interactKey))
                 {
                     textItem.ShowDetails();
+
+                    // Mine addition to check if the item is pickable and deactivate it
+                    if (textItem.isPickable)
+                    {
+                        textItem.gameObject.SetActive(false);
+                        // Implement pickable item logic here
+                        Debug.Log("Picked up: " + textItem.name);
+                    }
                 }
             }
         }

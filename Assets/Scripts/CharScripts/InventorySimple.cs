@@ -15,4 +15,7 @@ public class InventorySimple : MonoBehaviour
     public bool shovel = false;
     public bool rope = false;
     public bool crowbar = false;
+
+    [Header("Teleport locations order")]
+    public List<Transform> TeleportLocationsOrder;
 }

@@ -8,6 +8,7 @@ namespace TextInspectSystem
         [SerializeField] private bool showObjectName;
         [SerializeField] private bool showObjectDetails;
         [SerializeField] private bool playDetailsAudio;
+        [SerializeField] public bool isPickable;
 
         [Header("Text Parameters")]
         [SerializeField] private string objectName = "Generic Object";
