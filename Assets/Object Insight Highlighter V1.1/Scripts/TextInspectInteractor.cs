@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEditorInternal.Profiling.Memory.Experimental;
+using UnityEngine;
 
 namespace TextInspectSystem
 {
@@ -62,6 +64,12 @@ namespace TextInspectSystem
                         textItem.gameObject.SetActive(false);
 
                         Debug.Log("Picked up: " + textItem.name);
+                    }
+
+                    // Check if the item is Interactable and execute its functionality
+                    if (textItem.gameObject.GetComponent<Interactable>())
+                    {
+                        textItem.gameObject.GetComponent<Interactable>().Interact();
                     }
                 }
             }
