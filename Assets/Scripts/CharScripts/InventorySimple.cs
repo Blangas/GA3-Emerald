@@ -17,7 +17,7 @@ public class InventorySimple : MonoBehaviour
     public bool crowbar = false;
 
     [Header("Teleport locations order")]
-    public List<Transform> TeleportLocationsOrder;
+    public List<int> TeleportLocationsOrder;
 
     public void Start()
     {

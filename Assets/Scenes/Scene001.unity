@@ -6012,6 +6012,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6cb56b5c70f4f14ebf96689fda29f2c, type: 3}
+--- !u!1 &183332078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1070019982353598, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
+  m_PrefabInstance: {fileID: 329032334}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &183592564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10785,7 +10790,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1070019982353598, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
       propertyPath: m_Name
-      value: SM_Env_Hell_Circle_01
+      value: Portal_Circle_00
       objectReference: {fileID: 0}
     - target: {fileID: 1070019982353598, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
       propertyPath: m_IsActive
@@ -10860,7 +10865,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4452586911148624, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1427730699}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1070019982353598, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1048582893}
+    - targetCorrespondingSourceObject: {fileID: 1070019982353598, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1048582892}
   m_SourcePrefab: {fileID: 100100000, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
 --- !u!1001 &330774983
 PrefabInstance:
@@ -32997,6 +33008,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4452586911148624, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
   m_PrefabInstance: {fileID: 329032334}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1048582892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183332078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce1e3fdec9e6bf41be196249490aebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1048582893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 183332078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8d0e807d8fd0c14f83265065942fd92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showObjectName: 1
+  showObjectDetails: 1
+  playDetailsAudio: 0
+  isPickable: 0
+  displayIcon: {fileID: 0}
+  objectName: Portal
+  objectDetails: This looks like a portal.
+  detailsAudioClip: {fileID: 0}
 --- !u!1001 &1050736866
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46139,7 +46182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1427730699
 Transform:
   m_ObjectHideFlags: 0
@@ -50257,7 +50300,7 @@ MonoBehaviour:
   shovel: 0
   rope: 0
   crowbar: 0
-  TeleportLocationsOrder: []
+  TeleportLocationsOrder: 
 --- !u!1001 &1548599438
 PrefabInstance:
   m_ObjectHideFlags: 0
