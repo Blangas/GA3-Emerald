@@ -10861,9 +10861,6 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4452586911148624, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1639004504}
-    - targetCorrespondingSourceObject: {fileID: 4452586911148624, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1427730699}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1070019982353598, guid: 7b84683c77802a74e94f461386c4bb60, type: 3}
@@ -33020,6 +33017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce1e3fdec9e6bf41be196249490aebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleport: {fileID: 1427730699}
 --- !u!114 &1048582893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46198,6 +46196,7 @@ Transform:
   m_Children:
   - {fileID: 1186472775}
   - {fileID: 1749693535}
+  - {fileID: 1639004504}
   m_Father: {fileID: 1048582888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1427730700
@@ -46239,6 +46238,7 @@ MonoBehaviour:
   - {fileID: 1318940878}
   - {fileID: 205496394}
   - {fileID: 1440998573}
+  teleportIndex: 0
 --- !u!1001 &1430041990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46520,7 +46520,7 @@ Transform:
   m_GameObject: {fileID: 1440998572}
   serializedVersion: 2
   m_LocalRotation: {x: -0.014971701, y: 0.70098907, z: 0.0147232395, w: 0.7128629}
-  m_LocalPosition: {x: 7.32, y: -1.862567, z: 4.94}
+  m_LocalPosition: {x: 7.01, y: 5.421, z: 4.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52729,7 +52729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1639004504
 Transform:
   m_ObjectHideFlags: 0
@@ -52738,7 +52738,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639004503}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -52747,7 +52747,7 @@ Transform:
   - {fileID: 34944471}
   - {fileID: 450468654}
   - {fileID: 2041929953}
-  m_Father: {fileID: 1048582888}
+  m_Father: {fileID: 1427730699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1643650450
 PrefabInstance:

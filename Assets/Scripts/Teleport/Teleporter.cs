@@ -7,6 +7,7 @@ using UnityEngine;
 public class Teleporter : MonoBehaviour
 {
     public Transform[] teleportLocations;
+    public int teleportIndex = 0; // Index of the teleport location to use
 
     private void OnTriggerEnter(Collider other)
     {
@@ -15,8 +16,8 @@ public class Teleporter : MonoBehaviour
         {
             other.GetComponent<PlayerController>().enabled = false; // Disable player controls
             // Teleport the player to the target location
-            other.transform.position = teleportLocations[0].position;
-            other.transform.rotation = teleportLocations[0].rotation;
+            other.transform.position = teleportLocations[teleportIndex].position;
+            other.transform.rotation = teleportLocations[teleportIndex].rotation;
         }
     }
 
