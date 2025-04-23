@@ -6,13 +6,18 @@ public class InteractableSlot : Interactable
 {
     [Header("Interactable Slot")]
     public GameObject slotItem; // Item to show in the slot
+    public string itemName; // Name of the item
 
-    public override void Interact()
+    public override void Interact(InventorySimple inventory)
     {
         // Implement interaction logic here
         Debug.Log("Interacted with " + gameObject.name);
 
-        if (slotItem != null)
+        // Check if the inventory has the item
+        bool hasItem = (bool)inventory.GetType().GetField(itemName).GetValue(inventory);
+        Debug.Log("Inventory has what needed " + inventory.GetType().GetField(itemName).GetValue(inventory));
+
+        if (hasItem)
         {
             slotItem.SetActive(true);
         }

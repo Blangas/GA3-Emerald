@@ -9079,6 +9079,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 470398, guid: a3a688bad45e60446bf326f3e998e1da, type: 3}
   m_PrefabInstance: {fileID: 274749766}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &274755420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 154542, guid: ccd0c9e4e6aeaaa4694f0ee6f25aa330, type: 3}
+  m_PrefabInstance: {fileID: 1948337049}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &274850992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15967,6 +15972,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67f6358a70929f943ae115f8b4bcf075, type: 3}
+--- !u!1 &487693713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 185766, guid: 0ec7644112f041e46b981eeac940037a, type: 3}
+  m_PrefabInstance: {fileID: 826132476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &488795924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19340,6 +19350,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 854445976}
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 854445981}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1 &624229898
 GameObject:
@@ -26872,6 +26885,20 @@ MonoBehaviour:
   objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
     could fit in them.
   detailsAudioClip: {fileID: 0}
+--- !u!114 &854445981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854445971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c460d0f57b226db4c9e13996224baf32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotItem: {fileID: 487693713}
+  itemName: rune4
 --- !u!1001 &854767155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31463,6 +31490,20 @@ MonoBehaviour:
   objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
     could fit in them.
   detailsAudioClip: {fileID: 0}
+--- !u!114 &1001712816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304197038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c460d0f57b226db4c9e13996224baf32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotItem: {fileID: 2145491661}
+  itemName: rune2
 --- !u!1001 &1002368575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33294,6 +33335,20 @@ MonoBehaviour:
   objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
     could fit in them.
   detailsAudioClip: {fileID: 0}
+--- !u!114 &1059383340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848520526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c460d0f57b226db4c9e13996224baf32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotItem: {fileID: 1818759394}
+  itemName: rune1
 --- !u!1001 &1061482983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37418,6 +37473,20 @@ MonoBehaviour:
   objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
     could fit in them.
   detailsAudioClip: {fileID: 0}
+--- !u!114 &1164853786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164853776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c460d0f57b226db4c9e13996224baf32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotItem: {fileID: 1215010769}
+  itemName: rune3
 --- !u!1001 &1165036170
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39405,6 +39474,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 444028, guid: b9cff604e7a459c4581b58993fc28f1d, type: 3}
   m_PrefabInstance: {fileID: 1210692604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1215010769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 157320, guid: 6fe276a1b9aa90845966335a4f11e000, type: 3}
+  m_PrefabInstance: {fileID: 716522823}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1217228361
 PrefabInstance:
@@ -43644,6 +43718,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1001712811}
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1001712816}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1001 &1356200754
 PrefabInstance:
@@ -44958,6 +45035,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1164853781}
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1164853786}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1001 &1389683942
 PrefabInstance:
@@ -49468,6 +49548,20 @@ MonoBehaviour:
   objectDetails: Some skeletal looking hand sticking out of statue. Looks like something
     could fit in them.
   detailsAudioClip: {fileID: 0}
+--- !u!114 &1527107696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701577340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c460d0f57b226db4c9e13996224baf32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotItem: {fileID: 274755420}
+  itemName: rune5
 --- !u!4 &1527304021 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 408112, guid: c6cb56b5c70f4f14ebf96689fda29f2c, type: 3}
@@ -52568,6 +52662,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1059383335}
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1059383340}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1 &1639004503
 GameObject:
@@ -57939,6 +58036,11 @@ Transform:
   - {fileID: 205496394}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1818759394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 189258, guid: 6b7c63da8f83bca49b2da996b980802b, type: 3}
+  m_PrefabInstance: {fileID: 1199555283}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1819210112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68138,6 +68240,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1527107691}
+    - targetCorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1527107696}
   m_SourcePrefab: {fileID: 100100000, guid: e2601cfae5922224da511097d24528bf, type: 3}
 --- !u!1001 &2119577743
 PrefabInstance:
@@ -69065,6 +69170,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 422702, guid: ac72a98c062e432478eb557db53fdc1d, type: 3}
   m_PrefabInstance: {fileID: 1730798596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2145491661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 106372, guid: 6bc582bf93468484ea9c25423850ecf6, type: 3}
+  m_PrefabInstance: {fileID: 1893766289}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2145990185
 PrefabInstance:

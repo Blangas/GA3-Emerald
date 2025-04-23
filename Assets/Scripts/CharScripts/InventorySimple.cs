@@ -19,6 +19,11 @@ public class InventorySimple : MonoBehaviour
     [Header("Teleport locations order")]
     public List<Transform> TeleportLocationsOrder;
 
+    public void Start()
+    {
+        //Debug.Log("rune1 found " + this.GetType().GetField(StringOfVarName).GetValue(this));
+    }
+
     public void AddItem(string itemName)
     {
         switch (itemName)

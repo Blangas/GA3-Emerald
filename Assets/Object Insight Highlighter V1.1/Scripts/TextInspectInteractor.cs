@@ -69,7 +69,7 @@ namespace TextInspectSystem
                     // Check if the item is Interactable and execute its functionality
                     if (textItem.gameObject.GetComponent<Interactable>())
                     {
-                        textItem.gameObject.GetComponent<Interactable>().Interact();
+                        textItem.gameObject.GetComponent<Interactable>().Interact(inventory);
                     }
                 }
             }
