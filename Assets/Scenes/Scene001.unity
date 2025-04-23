@@ -26898,6 +26898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotItem: {fileID: 487693713}
+  slotIcon: {fileID: 2053764179}
   itemName: rune4
 --- !u!1001 &854767155
 PrefabInstance:
@@ -31503,6 +31504,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotItem: {fileID: 2145491661}
+  slotIcon: {fileID: 1305044837}
   itemName: rune2
 --- !u!1001 &1002368575
 PrefabInstance:
@@ -33348,6 +33350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotItem: {fileID: 1818759394}
+  slotIcon: {fileID: 1313024688}
   itemName: rune1
 --- !u!1001 &1061482983
 PrefabInstance:
@@ -37486,6 +37489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotItem: {fileID: 1215010769}
+  slotIcon: {fileID: 1542079645}
   itemName: rune3
 --- !u!1001 &1165036170
 PrefabInstance:
@@ -49561,6 +49565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slotItem: {fileID: 274755420}
+  slotIcon: {fileID: 894817701}
   itemName: rune5
 --- !u!4 &1527304021 stripped
 Transform:

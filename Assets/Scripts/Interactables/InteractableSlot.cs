@@ -6,6 +6,7 @@ public class InteractableSlot : Interactable
 {
     [Header("Interactable Slot")]
     public GameObject slotItem; // Item to show in the slot
+    public GameObject slotIcon;
     public string itemName; // Name of the item
 
     public override void Interact(InventorySimple inventory)
@@ -20,6 +21,7 @@ public class InteractableSlot : Interactable
         if (hasItem)
         {
             slotItem.SetActive(true);
+            slotIcon.SetActive(false); // Hide the icon
         }
     }
 }
