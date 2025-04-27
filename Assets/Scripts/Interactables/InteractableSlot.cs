@@ -8,9 +8,8 @@ public class InteractableSlot : Interactable
     public GameObject slotItem; // Item to show in the slot
     public GameObject slotIcon;
     public string itemName; // Name of the item
-    public 
 
-    override void Interact(InventorySimple inventory)
+    public override void Interact(InventorySimple inventory)
     {
         // Implement interaction logic here
         Debug.Log("Interacted with " + gameObject.name);
@@ -42,6 +41,7 @@ public class InteractableSlot : Interactable
                     inventory.TeleportLocationsOrder.Add(4);
                     break;
             }
+            inventory.GetType().GetField(itemName).SetValue(inventory, false);
         }
     }
 }
