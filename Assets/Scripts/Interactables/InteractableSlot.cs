@@ -26,19 +26,19 @@ public class InteractableSlot : Interactable
             switch (itemName)
             {
                 case "rune1":
-                    inventory.TeleportLocationsOrder.Add(0);
-                    break;
-                case "rune2":
                     inventory.TeleportLocationsOrder.Add(1);
                     break;
-                case "rune3":
+                case "rune2":
                     inventory.TeleportLocationsOrder.Add(2);
                     break;
-                case "rune4":
+                case "rune3":
                     inventory.TeleportLocationsOrder.Add(3);
                     break;
-                case "rune5":
+                case "rune4":
                     inventory.TeleportLocationsOrder.Add(4);
+                    break;
+                case "rune5":
+                    inventory.TeleportLocationsOrder.Add(5);
                     break;
             }
             inventory.GetType().GetField(itemName).SetValue(inventory, false);

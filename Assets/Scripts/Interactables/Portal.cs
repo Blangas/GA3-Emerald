@@ -15,15 +15,19 @@ public class Portal : Interactable
         {
             canBeUsed = false;
             Debug.Log("Teleport created to " + inventory.TeleportLocationsOrder[0]);
-            teleport.GetComponent<Teleporter>().teleportIndex = inventory.TeleportLocationsOrder[0];
+            teleport.GetComponent<Teleporter>().teleportIndex = inventory.TeleportLocationsOrder[0]; // sets teleport indext to first from a list
             teleport.gameObject.SetActive(true); // Activate the teleport object
             teleporterImages[inventory.TeleportLocationsOrder[0]].gameObject.SetActive(true); // activates correct portal image
             inventory.TeleportLocationsOrder.RemoveAt(0); // Remove the first teleport location after using it
             //this.enabled = false; // Disable this script to prevent re-using the portal
         }
-        else
+        else if (canBeUsed)
         {
-            Debug.Log("No teleport locations available.");
+            canBeUsed = false;
+            Debug.Log("No teleport locations list is empty. Teleporting to start.");
+            //teleport.GetComponent<Teleporter>().teleportIndex = 0;
+            teleport.gameObject.SetActive(true); // Activate the teleport object
+            teleporterImages[0].gameObject.SetActive(true); // activates correct portal image
         }
     }
 }
