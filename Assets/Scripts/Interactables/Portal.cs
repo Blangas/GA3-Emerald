@@ -8,6 +8,8 @@ public class Portal : Interactable
     public bool canBeUsed = true;
     public Transform teleport;
     public Transform[] teleporterImages;
+    public Transform lookingAtPlayer;
+    public Transform[] teleportCameras;
     public override void Interact(InventorySimple inventory)
     {
         // If there is any teleport location in the list, activates first and removes it from the list
@@ -18,6 +20,7 @@ public class Portal : Interactable
             teleport.GetComponent<Teleporter>().teleportIndex = inventory.TeleportLocationsOrder[0]; // sets teleport indext to first from a list
             teleport.gameObject.SetActive(true); // Activate the teleport object
             teleporterImages[inventory.TeleportLocationsOrder[0]].gameObject.SetActive(true); // activates correct portal image
+            teleportCameras[inventory.TeleportLocationsOrder[0]].GetComponent<TeleportCamera>().lookFrom = lookingAtPlayer;
             inventory.TeleportLocationsOrder.RemoveAt(0); // Remove the first teleport location after using it
             //this.enabled = false; // Disable this script to prevent re-using the portal
         }
@@ -28,6 +31,7 @@ public class Portal : Interactable
             //teleport.GetComponent<Teleporter>().teleportIndex = 0;
             teleport.gameObject.SetActive(true); // Activate the teleport object
             teleporterImages[0].gameObject.SetActive(true); // activates correct portal image
+            teleportCameras[0].GetComponent<TeleportCamera>().lookFrom = lookingAtPlayer;
         }
     }
 }
