@@ -11161,6 +11161,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1512397109813864, guid: e2601cfae5922224da511097d24528bf, type: 3}
   m_PrefabInstance: {fileID: 1354201287}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &305629586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 164410, guid: a30ebed74fb584d4ea44dc287aa3bc51, type: 3}
+  m_PrefabInstance: {fileID: 889738734}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &307261781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55470,6 +55475,8 @@ MonoBehaviour:
   rope: 0
   crowbar: 0
   TeleportLocationsOrder: 
+  judgementObjects:
+  - {fileID: 305629586}
 --- !u!4 &1547365103 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6dd287f9eb6b2f1478388a62b4de63f4, type: 3}
