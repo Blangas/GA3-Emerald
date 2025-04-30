@@ -19,6 +19,9 @@ public class InventorySimple : MonoBehaviour
     [Header("Teleport locations order")]
     public List<int> TeleportLocationsOrder;
 
+    [Header("Judgement activation")]
+    public List<GameObject> judgementObjects;
+
     public void Start()
     {
         //Debug.Log("rune1 found " + this.GetType().GetField(StringOfVarName).GetValue(this));
@@ -101,6 +104,14 @@ public class InventorySimple : MonoBehaviour
             default:
                 Debug.Log("Item not recognized: " + itemName);
                 break;
+        }
+    }
+
+    public void Judgement()
+    { 
+        foreach(GameObject judgeObject in judgementObjects)
+        {
+            judgeObject.SetActive(true);
         }
     }
 }

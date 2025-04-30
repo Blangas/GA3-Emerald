@@ -32,6 +32,8 @@ public class Portal : Interactable
             teleport.gameObject.SetActive(true); // Activate the teleport object
             teleporterImages[0].gameObject.SetActive(true); // activates correct portal image
             teleportCameras[0].GetComponent<TeleportCamera>().lookFrom = lookingAtPlayer;
+
+            inventory.Judgement();
         }
     }
 }
