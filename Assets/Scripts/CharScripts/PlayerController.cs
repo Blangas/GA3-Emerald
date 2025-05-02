@@ -38,6 +38,10 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        // let's hide the cursor and lock it in center
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
         cameraT = Camera.main.transform; // Camera initial transform cache
         controller = GetComponent<CharacterController>(); // Fetching the component at Start() to keep the variables private, less room for error.
     }

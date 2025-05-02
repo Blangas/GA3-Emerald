@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 // Script from Creating a Portal System in Unity https://medium.com/@tmaurodot/creating-a-portal-system-in-unity-f25954537c00
 
@@ -8,6 +9,8 @@ public class Teleporter : MonoBehaviour
 {
     public Transform[] teleportLocations;
     public int teleportIndex = 0; // Index of the teleport location to use
+
+    
 
     private void OnTriggerEnter(Collider other)
     {
