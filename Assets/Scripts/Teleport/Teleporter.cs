@@ -27,7 +27,12 @@ public class Teleporter : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.GetComponent<PlayerController>().enabled = true; // Enable player controls
-            this.gameObject.SetActive(false); // Removes used teleport
+            this.gameObject.SetActive(false); // Removes used
+
+            if (other.GetComponent<InventorySimple>().judgementOn)
+            {
+                other.GetComponent<InventorySimple>().Judgement();
+            }
         }
     }
 }

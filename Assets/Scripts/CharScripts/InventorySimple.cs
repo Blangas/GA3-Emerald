@@ -20,7 +20,9 @@ public class InventorySimple : MonoBehaviour
     public List<int> TeleportLocationsOrder;
 
     [Header("Judgement activation")]
+    public bool judgementOn = false;
     public List<GameObject> judgementObjects;
+    public List<GameObject> judgementObjectsOff;
 
     public void Start()
     {
@@ -108,10 +110,14 @@ public class InventorySimple : MonoBehaviour
     }
 
     public void Judgement()
-    { 
-        foreach(GameObject judgeObject in judgementObjects)
+    {
+        foreach (GameObject judgeObject in judgementObjects)
         {
             judgeObject.SetActive(true);
+        }
+        foreach (GameObject judgeObjectOff in judgementObjectsOff)
+        {
+            judgeObjectOff.SetActive(false);
         }
     }
 }
