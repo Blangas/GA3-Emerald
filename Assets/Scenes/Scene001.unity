@@ -51039,13 +51039,14 @@ GameObject:
   - component: {fileID: 1427730699}
   - component: {fileID: 1427730700}
   - component: {fileID: 1427730701}
+  - component: {fileID: 1427730702}
   m_Layer: 0
   m_Name: Teleporter_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1427730699
 Transform:
   m_ObjectHideFlags: 0
@@ -51110,6 +51111,37 @@ MonoBehaviour:
   - {fileID: 205496394}
   - {fileID: 1440998573}
   teleportIndex: 0
+--- !u!114 &1427730702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1427730698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1772014782
+      Data2: 1248222625
+      Data3: -175646811
+      Data4: -1469895602
+    Path: event:/ambient-portal-hum
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &1428688289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469538, guid: ba39ae34c46b0ac46a3e8c1de0fc4d49, type: 3}

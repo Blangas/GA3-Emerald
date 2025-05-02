@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{abb26520-aff3-4021-a172-eaf5541fe474}">
+		<property name="assetPath">
+			<value>254131__shiversmedia__ambient-portal-hum-once-upon-a-time-in-the-1970s.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>25.958956916099773</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f2756e3d-ebb2-4d89-8038-d6d9ee365c8e}</destination>
+		</relationship>
+	</object>
+</objects>
