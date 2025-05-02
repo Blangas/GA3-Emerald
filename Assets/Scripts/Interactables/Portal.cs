@@ -2,14 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using FMODUnity;
 
 public class Portal : Interactable
 {
     public bool canBeUsed = true;
     public Transform teleport;
     public Transform[] teleporterImages;
+
+    // used to set correct look-at-player-from point to correct camera
     public Transform lookingAtPlayer;
     public Transform[] teleportCameras;
+
+
     public override void Interact(InventorySimple inventory)
     {
         // If there is any teleport location in the list, activates first and removes it from the list
