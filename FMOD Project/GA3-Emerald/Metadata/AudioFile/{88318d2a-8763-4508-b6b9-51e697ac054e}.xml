@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{88318d2a-8763-4508-b6b9-51e697ac054e}">
+		<property name="assetPath">
+			<value>624163__wwstudioswastaken__ice_cracking_01.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.69894791666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f2756e3d-ebb2-4d89-8038-d6d9ee365c8e}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{0a89eb30-5b35-40ff-a738-fca18c4c2001}">
+		<property name="assetPath">
+			<value>434759__notarget__wood-step-sample-4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.3620861678004535</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f2756e3d-ebb2-4d89-8038-d6d9ee365c8e}</destination>
+		</relationship>
+	</object>
+</objects>
