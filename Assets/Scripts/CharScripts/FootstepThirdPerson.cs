@@ -9,15 +9,17 @@ public class FootstepThirdPerson : MonoBehaviour
     public float hitDistance = 10;
     private FMOD.Studio.EventInstance footSoundInstance;
 
+    public Camera myCamera;
+
 
     private void Start()
     {
-        footSoundInstance = FMODUnity.RuntimeManager.CreateInstance("event:/grass");
+        footSoundInstance = FMODUnity.RuntimeManager.CreateInstance("event:/rock");
     }
     private void Update()
     {
        
-        footSoundInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.main.gameObject));
+        footSoundInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(myCamera.gameObject));
 
     }
     // Update is called once per frame
@@ -39,19 +41,19 @@ public class FootstepThirdPerson : MonoBehaviour
                 if (hit.distance < hitDistance)
                 {
 
-                    if (hit.transform.tag == "grass")          //grass
+                    if (hit.transform.tag == "rock")          //grass
                     {
                         ChangeSound(0, volume);
                     }
-                    else if (hit.transform.tag == "dirt")    //dirt 
+                    else if (hit.transform.tag == "ice")    //dirt 
                     {
                         ChangeSound(1, volume);
                     }
-                    else if (hit.transform.tag == "rock")    //rock
+                    else if (hit.transform.tag == "dirt")    //rock
                     {
                         ChangeSound(2, volume);
                     }
-                    else if (hit.transform.tag == "water")   //water
+                    else if (hit.transform.tag == "wood")   //water
                     {
                         ChangeSound(3, volume);
                     }
