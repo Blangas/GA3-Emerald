@@ -22808,9 +22808,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 2000
 --- !u!4 &655837237 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4870304741321898, guid: 5fb125617629fb64386fdafd5ec4a612, type: 3}
@@ -33656,9 +33656,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 2000
 --- !u!4 &955627840 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4558382576366930, guid: e28c21f05c6bd6540b5423d8a14ea570, type: 3}
@@ -42209,9 +42209,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 2000
 --- !u!1001 &1162778359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48162,9 +48162,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 2000
 --- !u!4 &1324707465 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4687351229491478, guid: 85e155d8c4b38574f99b9a3bc8a9bfc0, type: 3}
@@ -52218,9 +52218,9 @@ MonoBehaviour:
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMaxDistance: 2000
 --- !u!4 &1428688289 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 469538, guid: ba39ae34c46b0ac46a3e8c1de0fc4d49, type: 3}
@@ -56931,11 +56931,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad526edec2c1be4087ad5403fe90975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rune1: 0
-  rune2: 0
-  rune3: 0
-  rune4: 0
-  rune5: 0
+  rune1: 1
+  rune2: 1
+  rune3: 1
+  rune4: 1
+  rune5: 1
   axe: 0
   tinderBox: 0
   shovel: 0
